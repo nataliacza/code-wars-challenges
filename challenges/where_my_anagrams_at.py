@@ -1,4 +1,5 @@
 '''
+https://www.codewars.com/kata/523a86aa4230ebb5420001e1
 What is an anagram? Well, two words are anagrams of each other if they both contain the same letters. For example:
 
 'abba' & 'baab' == true
@@ -16,4 +17,4 @@ def anagrams(word, words):
     matching_words = [element for element in words if dict(Counter(element)) == count_word_letters]
     return matching_words
 
-print(anagrams('racer', ['crazer', 'carer', 'racar', 'caers', 'racer']))
+#print(anagrams('racer', ['crazer', 'carer', 'racar', 'caers', 'racer']))
